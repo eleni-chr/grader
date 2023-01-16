@@ -8,9 +8,11 @@ grader(@sin,@max,0)
 ans =  logical 1
 
 
+
 grader(@sin,@max,0,1)
 
 ans =  logical 0
+
 
 
 grader(@cos,@cos,-pi,0,pi,[0:0.1:1])
